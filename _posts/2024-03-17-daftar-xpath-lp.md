@@ -25,3 +25,11 @@ title:  "Daftar Xpath LP"
 ```
 //*[@id="__next"]/div/div[1]/div[1]/div/div[1]/div[1]/div/div[1]/div[1]/span[2]
 ```
+**Tag**
+```
+//*[@id="__next"]/div/div[1]/div[1]/div/div[1]/div[1]/div/div[4]/div[2]
+```
+**First Paragraph**
+```
+//*[@id="__next"]/div/div[1]/div[1]/div/div[1]/div[1]/div/div[3]/p[1]/span
+```
