@@ -15,7 +15,7 @@ title:  "Daftar Xpath LP"
 ```
 **Category**
 ```
-//*[@id="__next"]/div/div[1]/div[1]/div/div[1]/div[1]/div/div[1]/div[1]/div[1]/a
+//*[@id="__next"]/div/div[1]/div[1]/div/div[1]/div[1]/div/div[1]/div[1]/div[2]/div/a
 ```
 **Reading Time**
 ```
