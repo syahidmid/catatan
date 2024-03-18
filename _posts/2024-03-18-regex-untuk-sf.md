@@ -10,6 +10,6 @@ title:  "Daftar Regex untuk Screaming Forg"
 ```
 **Filter frasa di Col Title untuk Menemukan Soft 404**
 ```
-\b(?:Situs\sTidak\sDitemukan|Site\snot\sfound|Internet\sPositif|Attention\sRequired!\s\|\sCloudflare)\b
+\b(?:Situs\sTidak\sDitemukan|Site\snot\sfound|Internet\sPositif|Attention\sRequired!|Page\snot\sfound)\b
 ```
 
