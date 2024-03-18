@@ -8,7 +8,7 @@ title:  "Daftar Regex untuk Screaming Forg"
 ```
 .+
 ```
-**Filter frasa di Soft 404 di Column Title**
+**Filter frasa Soft 404 (Column Title)**
 ```
 \b(?:Situs\sTidak\sDitemukan|Site\snot\sfound|Internet\sPositif|Attention\sRequired!|Page\snot\sfound|Index\sof|Site\sis\sundergoing\smaintenance|無効なURLです)\b
 ```
@@ -22,7 +22,7 @@ List frasa Soft 404
 - Site is undergoing maintenance
 - 無効なURLです
 - slot
-- judi
+- judi   
 **Filter frasa Judi Online di Column Title**
 ```
 \b(?:slot|judi)\b
