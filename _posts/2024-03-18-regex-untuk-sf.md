@@ -10,7 +10,7 @@ title:  "Daftar Regex untuk Screaming Forg"
 ```
 **Filter frasa Soft 404 (Column Title)**
 ```
-\b(?:Situs\sTidak\sDitemukan|Site\snot\sfound|Internet\sPositif|Attention\sRequired!|Page\snot\sfound|Index\sof|Site\sis\sundergoing\smaintenance|無効なURLです|The\sdomain\sname\s\w+\sis\sfor\ssale)\b
+\b(?:Situs\sTidak\sDitemukan|Site\snot\sfound|Internet\sPositif|Attention\sRequired!|Page\snot\sfound|Index\sof|Site\sis\sundergoing\smaintenance|無効なURLです|The\sdomain\sname\s\w+\sis\sfor\ssale|Account\sSuspended\s)\b
 ```
 List frasa Soft 404
 - Situs Tidak Ditemukan
@@ -22,6 +22,8 @@ List frasa Soft 404
 - Site is undergoing maintenance
 - 無効なURLです 
 - The domain name [domain name] is for sale
+- Account Suspended
+   
 **Filter frasa Judi Online di Column Title**
 ```
 \b(?:slot|judi|togel)\b
