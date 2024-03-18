@@ -4,13 +4,13 @@ title:  "Daftar Regex untuk Screaming Forg"
 ---
 
 # Daftar Regex untuk Screaming Forg 
-**Filter untuk col Title yang tidak blank**
+**Filter column yang mencocokkan dengan karakter apapun (tidak blank)**
 ```
 .+
 ```
-**Filter frasa di Col Title untuk Menemukan Soft 404**
+**Filter frasa di Soft 404 di Column Title**
 ```
-\b(?:Situs\sTidak\sDitemukan|Site\snot\sfound|Internet\sPositif|Attention\sRequired!|Page\snot\sfound|Index\sof|Site\sis\sundergoing\smaintenance|無効なURLです|slot|judi)\b
+\b(?:Situs\sTidak\sDitemukan|Site\snot\sfound|Internet\sPositif|Attention\sRequired!|Page\snot\sfound|Index\sof|Site\sis\sundergoing\smaintenance|無効なURLです)\b
 ```
 List frasa Soft 404
 - Situs Tidak Ditemukan
@@ -21,5 +21,12 @@ List frasa Soft 404
 - Index of /
 - Site is undergoing maintenance
 - 無効なURLです
+- slot
+- judi
+**Filter frasa Judi Online di Column Title**
+```
+\b(?:slot|judi)\b
+```
+List frasa judi online
 - slot
 - judi
