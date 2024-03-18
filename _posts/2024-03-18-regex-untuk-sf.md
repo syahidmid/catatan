@@ -10,7 +10,7 @@ title:  "Daftar Regex untuk Screaming Forg"
 ```
 **Filter frasa di Col Title untuk Menemukan Soft 404**
 ```
-\b(?:Situs\sTidak\sDitemukan|Site\snot\sfound|Internet\sPositif|Attention\sRequired!|Page\snot\sfound|Index\sof|Site\sis\sundergoing\smaintenance|無効なURLです)\b
+\b(?:Situs\sTidak\sDitemukan|Site\snot\sfound|Internet\sPositif|Attention\sRequired!|Page\snot\sfound|Index\sof|Site\sis\sundergoing\smaintenance|無効なURLです|slot|judi)\b
 ```
 List frasa Soft 404
 - Situs Tidak Ditemukan
@@ -21,3 +21,5 @@ List frasa Soft 404
 - Index of /
 - Site is undergoing maintenance
 - 無効なURLです
+- slot
+- judi
