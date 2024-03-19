@@ -10,6 +10,8 @@ title:  "Daftar Formula Regex untuk Spreadsheets"
 ```
 **Formula Regex untuk Mendeteksi Wildcard Subdomain ww38, ww16, ww23**
 ```
+```
 =REGEXMATCH(A237, "\.(w\d+)\.|(ww\d+)\.")
+```
 
 
