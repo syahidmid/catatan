@@ -4,12 +4,12 @@ title:  "Daftar Regex untuk Screaming Forg"
 description: "List regex untuk Screaming Forg."
 ---
 
-# Daftar Regex untuk Screaming Forg 
-## **Filter column: Mencocokkan dengan karakter apapun (menghindari blank)**
+# **Daftar Regex untuk Screaming Forg**
+## Filter column: Mencocokkan dengan karakter apapun (menghindari blank)
 ```
 .+
 ```
-## **Filter column: frasa Soft 404 (Column Title)**
+## Filter column: frasa Soft 404 (Column Title)
 ```
 \b(?:Situs\sTidak\sDitemukan|Site\snot\sfound|Internet\sPositif|Attention\sRequired!|Page\snot\sfound|Index\sof|Site\sis\sundergoing\smaintenance|無効なURLです|The\sdomain\sname\s\w+\sis\sfor\ssale|Account\sSuspended|Website\sSuspended|Suspended)\b
 ```
@@ -27,7 +27,7 @@ List frasa Soft 404
 - Website Suspended
 - Suspended
    
-## **Filter column: frasa Judi Online di Column Title**
+## Filter column: frasa Judi Online di Column Title
 ```
 \b(?:slot|judi|togel)\b
 ```
@@ -36,7 +36,7 @@ List frasa Soft 404
 - judi
 - togel
    
-## **Custom Search: Backlink checks**
+## Custom Search: Backlink checks
 **LP**
 ```
 (?<=<a\s+(?:[^>]*?\s+)?href=")(https?:\/\/(?:www\.)?lifepal\.co\.id\/[^"]*)(?=")
@@ -44,4 +44,12 @@ List frasa Soft 404
 **MS**
 ```
 (?<=<a\s+(?:[^>]*?\s+)?href=")(https?:\/\/(?:www\.)?moneysmart\.id\/[^"]*)(?=")
+```
+**DP**
+```
+(?<=<a\s+(?:[^>]*?\s+)?href=")(https?:\/\/(?:www\.)?duitpintar\.com\/[^"]*)(?=")
+```
+**RJ**
+```
+(?<=<a\s+(?:[^>]*?\s+)?href=")(https?:\/\/(?:www\.)?roojai\.co\.id\/[^"]*)(?=")
 ```
