@@ -5,11 +5,11 @@ description: "List regex untuk Screaming Forg."
 ---
 
 # **Daftar Regex untuk Screaming Forg**
-## Filter column: Mencocokkan dengan karakter apapun (menghindari blank)
+## Filter Column: Mencocokkan dengan Karakter Apapun (Menghindari Blank)
 ```
 .+
 ```
-## Filter column: frasa Soft 404 (Column Title)
+## Filter Column: Frasa Soft 404 (Column Title)
 ```
 \b(?:Situs\sTidak\sDitemukan|Site\snot\sfound|Internet\sPositif|Attention\sRequired!|Page\snot\sfound|Index\sof|Site\sis\sundergoing\smaintenance|無効なURLです|The\sdomain\sname\s\w+\sis\sfor\ssale|Account\sSuspended|Website\sSuspended|Suspended)\b
 ```
@@ -27,7 +27,7 @@ List frasa Soft 404
 - Website Suspended
 - Suspended
    
-## Filter column: frasa Judi Online di Column Title
+## Filter Column: Frasa Judi Online di Column Title
 ```
 \b(?:slot|judi|togel)\b
 ```
